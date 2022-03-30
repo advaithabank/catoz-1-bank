@@ -1,5 +1,5 @@
 const express = require('express')
-const app = express()
+const app = express() 
 // const router = express.Router()
 // const electronics = require('./routes/electronics/electronics.js')
 // const fashion = require('./routes/fashion/fashion.js')
