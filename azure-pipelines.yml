@@ -5,6 +5,7 @@
 
 trigger:
 - charandev
+- main
 
 pool:
   vmImage: ubuntu-latest
