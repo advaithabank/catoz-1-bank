@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/8fea4313-4937-4746-ba29-a7f8758e55ba/resourceGroups/ResourceGroup1lod22120589/providers/Microsoft.Web/sites/mybanking",
+    "appService.deploySubpath": "."
+}
