@@ -13,12 +13,12 @@ pool:
 steps:
 - task: Docker@2
   inputs:
-    containerRegistry: 'myDockerhub-ServiceConnection'
+    containerRegistry: 'dockerhub-connection'
     repository: 'charankumarcpl/pipeline'
     command: 'build'
     Dockerfile: '**/dockerfile'
 - task: Docker@2
   inputs:
-    containerRegistry: 'myDockerhub-ServiceConnection'
+    containerRegistry: 'dockerhub-connection'
     repository: 'charankumarcpl/pipeline'
     command: 'push'
