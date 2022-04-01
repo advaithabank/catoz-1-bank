@@ -4,4 +4,4 @@ metadata:
   creationTimestamp: null
   labels:
     run: charanpod
-  name: phaninamespace
+  name: default abcddasdasdasdsadasdas
